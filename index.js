@@ -25,3 +25,7 @@ app.use('/api', userRoutes);
 app.listen(PORT, ()=>{
     console.log(`Server is running on port ${PORT}`);
 });
+
+
+//To run this Install -->
+//npm install body-parser method-override express-validator mongoose express path
